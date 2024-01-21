@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Your existing styles go here -->
+
+    <!-- External script for VesselFinder map -->
+    <script type="text/javascript">
+        // Map appearance
+        var width="100%";         // width in pixels or percentage
+        var height="300";         // height in pixels
+        var names=true;           // always show ship names (defaults to false)
+
+        // Single ship tracking
+        var imo="9506291";        // display latest position (by IMO, overrides MMSI)
+        var show_track=true;      // display track line (last 24 hours)
+    </script>
+    <script type="text/javascript" src="https://www.vesselfinder.com/aismap.js"></script>
+</head>
+<body>
+    <!-- Your existing body content goes here -->
+
+    <!-- Additional scripts or inline scripts can be added here if needed -->
+</body>
+</html>
